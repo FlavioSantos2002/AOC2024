@@ -1,0 +1,29 @@
+testa se encontra o "mul(", e guarda o índice do "m"
+
+função que testa se um numero pode ser aprovada:
+
+testes
+-se o (index + 4) for um numero de 0 ate 9
+se sim {
+	testa o próximo (index + 4 + aux)
+	Enquanto for sim ele testa e passa pro proximo
+}
+se não {
+
+	se auxiliar(aux = 0) for 0{ // isso ocorre pois estou ainda no primeiro item ou seja se ele já for =! de um numero logo é invalido
+
+		retorna falso
+	}
+	se não{
+		se o elemento após um numero for uma virgula 
+			testa se os próximos são números
+				
+	}
+}
+
+
+funções 
+sou um numero? se sim retorna o valor do numero pra depois multiplicar 
+sou uma virgula?
+sou um ")"?
+
